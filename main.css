@@ -96,6 +96,8 @@ section {
 
 section h2 {
     margin-bottom: 16px;
+    border-bottom: 2px solid #427ff1;
+    font-style: italic;
 }
 
 section p {
@@ -168,4 +170,82 @@ form {
 
 form button {
     max-width: 120px ;
+}
+
+@media screen and (max-width: 767px) {
+    #carrousel-imagens {
+        display: none;
+    }
+
+    .menu-hamburger {
+        display: none;
+    }
+
+    header h1 {
+        margin-left: 40px;
+    }
+    nav {
+        background-color: #3366e63f;
+        padding: 16px 0;
+        display: block;
+    }
+    
+    nav li {
+        list-style: none;
+        display: inline;
+        margin-right: 17px;
+        font-size: 18px;
+        font-weight: bold;
+        /*text-transform: uppercase; */
+    }
+
+    nav ul {
+
+    }
+    
+    nav li a {
+        color: white;
+        text-decoration: none;
+    }
+    header .container{
+        max-width: 90%;
+    }
+    header {
+        margin-bottom: 0px;
+        position: static;
+    }
+    section .container {
+        max-width: 90%;
+        flex-direction: column;
+    }
+
+    #sobre-a-loja img {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+    section#sobre-a-loja {
+        padding: 0px 0px;
+        margin-bottom: 40px;
+        margin-top: 16px;
+    }
+
+    .loja {
+        max-width: 100%;
+        margin-right: 0px;
+        margin-bottom: 18px;
+    }
+    #sobre-a-loja h2 {
+        margin: 0 0 0px;
+    }
+    #par1{
+        margin-top: 16px;
+    }
+
+    #emDestaque {
+        padding: 0 0px;
+    }
+    
+    
+
 }
